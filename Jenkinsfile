@@ -21,7 +21,7 @@ pipeline{
             }
         }        
 		
-		stage('Release') {
+		stage('Release') {  
 			steps {
 				sh '''
 					oc project dfzaux-greetings
